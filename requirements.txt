@@ -1,0 +1,12 @@
+pandas
+numpy
+chardet
+difflib
+pprint
+pickle
+contextlib
+io
+nltk
+pyahocorasick
+pip install git+https://github.com/repodiac/german_compound_splitter
+wordfreq
