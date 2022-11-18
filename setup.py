@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='german_affix_splitter',
     version='0.1',
-    author='ElectricBoogaloo6',
+    author='Konstantin',
     author_email='20081208@mail.wit.ie',
     packages=['German_affix_splitter'],
     url='https://github.com/ElectricBoogaloo6/German_affix_splitter',
