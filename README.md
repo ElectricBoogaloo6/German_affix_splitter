@@ -33,5 +33,12 @@ files = german_affix_splitter.get_file(r'.../SUBTLEX_DE.txt', '.../wordlist_germ
 suffixes = german_affix_splitter.result(files, pickle_it=True)
 ```
 
+## Required Packages
+* `chardet` https://pypi.org/project/chardet/
+* `NLTK` https://pypi.org/project/nltk/
+* `pyahocorasick` https://pypi.org/project/pyahocorasick/
+* `german_compound_splitter` pip install git+https://github.com/repodiac/german_compound_splitter from https://github.com/repodiac/german_compound_splitter
+* `wordfreq` https://pypi.org/project/wordfreq/
+
 ## Runtime and performance
 Because of the large lists and various iteration the approximate run time is `1m20sec`. However, this is highly dependant on hardware. Thanks to `pyahocorasick` a lot of computation time is saved during the compound word splitting process (https://pypi.org/project/pyahocorasick/). 
